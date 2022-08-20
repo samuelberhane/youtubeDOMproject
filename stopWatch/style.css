@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(image/watch.jpg) no-repeat center center/cover;
+  height: 100vh;
+}
+
+.container {
+  width: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 3px 2px;
+  border-radius: 20px;
+  padding: 20px 0;
+}
+
+.time {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 60px;
+  background-color: rgb(32, 212, 167);
+  padding: 10px 0;
+}
+
+.control {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+
+button {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+i {
+  color: #fff;
+  font-size: 40px;
+  border-radius: 10px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+#start {
+  background-color: green;
+}
+
+#pause {
+  background-color: rgb(216, 172, 29);
+}
+
+#reset {
+  background-color: rgb(206, 24, 197);
+}
